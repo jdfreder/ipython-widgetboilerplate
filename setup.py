@@ -21,6 +21,6 @@ setup(
                  'License :: OSI Approved :: MIT License'],
     packages=['mywidget'],
     include_package_data=True,
-    install_requires=["ipython-pip"],
+    install_requires=["jupyter-pip"],
     cmdclass=cmdclass('mywidget'),
 )
