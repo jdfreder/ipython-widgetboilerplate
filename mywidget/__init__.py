@@ -1,0 +1,1 @@
+from mywidget import *
