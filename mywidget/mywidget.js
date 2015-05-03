@@ -1,7 +1,7 @@
 define(['jquery', 'widgets/js/widget'], function($, widget) {
     var MyWidgetView = widget.DOMWidget.extend({
         render: function() {
-            ResponsiveBoxView.__super__.render.apply(this, arguments);
+            MyWidgetView.__super__.render.apply(this, arguments);
             this._count_changed();
             this.listenTo(this.model, 'change:count', this._count_changed, this);
         },
