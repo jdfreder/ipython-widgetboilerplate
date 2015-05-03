@@ -2,9 +2,10 @@
 from __future__ import print_function
 from setuptools import setup
 try:
-    from ipythonpip import cmdclass
+    from jupyterpip import cmdclass
 except:
-    cmdclass = lambda *args: None
+    import pip, importlib
+    pip.main(['install', 'jupyter-pip']); cmdclass = importlib.import_module('jupyterpip').cmdclass
 
 setup(
     name='mywidget',
