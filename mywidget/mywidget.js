@@ -1,5 +1,5 @@
 define(['jquery', 'widgets/js/widget'], function($, widget) {
-    var MyWidgetView = widget.DOMWidget.extend({
+    var MyWidgetView = widget.DOMWidgetView.extend({
         render: function() {
             MyWidgetView.__super__.render.apply(this, arguments);
             this._count_changed();
