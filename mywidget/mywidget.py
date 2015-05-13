@@ -1,4 +1,5 @@
-from IPython.html.widgets import DOMWidget
+from IPython.html.widgets import DOMWidget,Box
+from IPython.utils.traitlets import Unicode, Int
 from IPython.utils.traitlets import Int
 
 class MyWidget(Box):

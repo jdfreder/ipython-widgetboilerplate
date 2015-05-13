@@ -1,1 +1,1 @@
-from mywidget import *
+from .mywidget import *
