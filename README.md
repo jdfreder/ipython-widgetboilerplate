@@ -16,21 +16,27 @@ This repository contains a simple empty widget, and can be used as a starting po
 `examples/` Example notebooks using the widget.
 
 ## Deployment
-Installation is made easy by [jupyter-pip](https://github.com/jdfreder/jupyter-pip).  To install
+Installation is made easy by [jupyter-pip](https://github.com/jdfreder/jupyter-pip).  To install  
 
-  pip install .
-  
-For development installs
+```
+pip install .
+```
 
-  pip install -e .
-  
-If can deploy your package to PYPI, and then your user will be able to install it like any other package
+For development installs  
 
-  pip install PACKAGENAME
-  
+```
+pip install -e .
+```
+
+If can deploy your package to PYPI, and then your user will be able to install it like any other package  
+
+```
+pip install PACKAGENAME
+```
+
 ## Troubleshooting
 
-Sometimes pip or jupyter-pip, or a combination of the two, misbehaves.  When that happens, try installing by using
-
-  python setup.py install
-
+Sometimes pip or jupyter-pip, or a combination of the two, misbehaves.  When that happens, try installing by using  
+```
+python setup.py install
+```
